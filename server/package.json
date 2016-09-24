@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "Server application for Assembly Web Project",
   "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +20,12 @@
     "content management"
   ],
   "author": "Assembly WebCrew <web@assembly.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  }
 }
