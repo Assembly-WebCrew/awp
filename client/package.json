@@ -1,0 +1,21 @@
+{
+  "name": "awp-client",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Client application for Assembly Web Project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "todo"
+  },
+  "keywords": [
+    "awp",
+    "assembly",
+    "cms",
+    "content management"
+  ],
+  "author": "Assembly WebCrew <web@assembly.org>",
+  "license": "MIT"
+}
